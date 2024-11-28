@@ -21,9 +21,9 @@ const validateEnvVars = () => {
   const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
   const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 // print the value of serviceId, templateId, and publicKey
-  console.log(serviceId);
-  console.log(templateId);
-  console.log(publicKey);
+  // console.log(serviceId);
+  // console.log(templateId);
+  // console.log(publicKey);
   
   if (!serviceId || !templateId || !publicKey) {
     throw new Error('Missing required EmailJS configuration');
